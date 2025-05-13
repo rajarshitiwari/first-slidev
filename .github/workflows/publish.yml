@@ -11,7 +11,7 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Install slidev
-        run:  npx playwrite install chromium
+        run:  npx playwright install chromium
       - name: Build
         run: yarn build
       - name: Deploy pages
